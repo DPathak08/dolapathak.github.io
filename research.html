@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research and Publications</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dola Pathak</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="qualification_and_experience.html">Qualification and Experience</a>
+</li>
+<li>
+  <a href="research.html">Research and Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research and Publications</h1>
+
+</div>
+
+
+<div id="publications-to-be-published-presentations"
+class="section level4">
+<h4>PUBLICATIONS/ TO BE PUBLISHED/ PRESENTATIONS</h4>
+</div>
+<div id="publications-in-refereed-peer-reviewed-journals"
+class="section level4">
+<h4>Publications in Refereed (peer-reviewed) Journals:</h4>
+<p>Manuscript Submitted/Under Review:</p>
+<ol style="list-style-type: decimal">
+<li><p>Deka, P., Almena, L., Pathak, D., Muñoz-Gómez, E.,
+Orihuela-Cerdeñad, L., López-Vilella, R., Klompstra, L., Marques-Sule,
+E. (2022; under review). Technology usage, physical activity, and
+motivation in patients with heart failure and heart transplantation.
+Submitted to the Computer Informatics Nursing</p></li>
+<li><p>Deka, P., Pathak, D., Miró-Palau, V., Karve, M., López-Vilella,
+R., Klompstra, L., Marques-Sule, E. (2022; under review). Lower quality
+of life observed in patients with non-cardiac chest pain. Submitted to
+the International Journal of Nursing Practice</p></li>
+</ol>
+<div id="manuscripts-publishedaccepted" class="section level5">
+<h5>Manuscripts Published/Accepted:</h5>
+<ol style="list-style-type: decimal">
+<li><p>Marques-Sule, E., Deka, P., Almenar, L., Pathak, D.,
+López-Vilella, R., Klompstra, L. (2022). Physical activity readiness in
+patients with heart failure. International Journal of Environmental
+Research and Public Health- Section Exercise and Health. 19 (23), 16332;
+<a href="https://doi.org/10.3390/ijerph192316332"
+class="uri">https://doi.org/10.3390/ijerph192316332</a> (Impact Factor
+4.614)</p></li>
+<li><p>Deka, P., Blesa, J., Pathak, D., Sempere, N., Iglesiasg, P.,
+Micó, L., Sánchez-Torrijos, J., Klompstra, L. &amp; Marques-Sule, E.
+(2022). Combined dietary education and high-intensity interval
+resistance training improve health outcomes in patients with coronary
+artery disease. International Journal of Environmental Research and
+Public Health-Special Issue New Advances in Cardiovascular Nutrition, 19
+(18), 11402, <a href="https://doi.org/10.3390/ijerph191811402"
+class="uri">https://doi.org/10.3390/ijerph191811402</a> (Impact Factor
+4.614)</p></li>
+<li><p>Klompstra, L., Deka, P., Almenar, L., Pathak, D., Muñoz-Gómez,
+E., Lopez-Vilella, R. &amp; Marques-Sule, E. (2022). Physical activity
+enjoyment mediates the relationship between exercise motivation and
+physical activity in patients with heart failure. Clinical
+Rehabilitation, 36 (10), 1324-1331. <a
+href="https://doi.org/10.1177/02692155221103696"
+class="uri">https://doi.org/10.1177/02692155221103696</a> (Impact Factor
+3.5)</p></li>
+<li><p>Smania, M.A., Annis,A., Pathak,D., Wasilevich, E., Poindexter, P.
+(2022). “Faculty Education to Improve Integration of Genomics Education
+in Nursing Curriculum”. Journal of Professional Nursing 43:74-82, <a
+href="https://eurekamag.com/research/080/716/080716648.php"
+class="uri">https://eurekamag.com/research/080/716/080716648.php</a></p></li>
+<li><p>Sagheer, S., Deka, P., Pathak, D., Khan, U., Zaid, S. H., Akhlaq,
+A., Blankenship, A., Annis, A. (2021). Clinical Outcomes of Acute
+Myocardial Infarction Hospitalizations with Systemic Lupus
+Erythematosus: An Analysis of Nationwide Readmissions Database. Current
+Problems in Cardiology, DOI: 10.1016/j.cpcardiol.2021.101086(Impact
+Factor 16.5)</p></li>
+<li><p>Deka, P., Pathak, D., Miró-Palau, V., Karve, M., Vázquez-Arce,
+I., López-Vilella, R., Klompstra, L., Marques-Sule, E. (2021). Clinical
+outcomes vary between the Shuttle Walk Test and Stress Test in patients
+with coronary artery disease. American Heart Journal Plus: Cardiology
+Research and Practice. <a
+href="https://doi.org/10.1016/j.ahjo.2021.100064"
+class="uri">https://doi.org/10.1016/j.ahjo.2021.100064</a> (Impact
+Factor: 5.09)</p></li>
+<li><p>Deka, P., Pathak, D., Klompstra, L., Muñoz-Gómez, E., Espí-López,
+G. &amp; Marques-Sule, E. (2021). Reduction in fear of physical activity
+among older persons with coronary artery disease by physical
+therapist-assisted exercise: A Randomized Trial. Journal of the American
+Medical Directors Association. doi: 10.1016/j.jamda.2021.08.007 (Impact
+Factor: 7.7)</p></li>
+<li><p>Pal, S., Shekhar, R., Kottewar, S., Upadhyay, S., Singh, M.,
+Pathak, D., Sheikh, A. (2021) COVID-19 Vaccine Hesitancy and Attitude
+Toward Booster Doses Among US Healthcare Workers. Vaccines, <a
+href="https://doi.org/10.3390/vaccines9111358"
+class="uri">https://doi.org/10.3390/vaccines9111358</a></p></li>
+<li><p>Deka, P., Almenar, L., Pathak, D., Klompstra, L., Romero-Fuentes,
+M., Lopez-Vilella, R. &amp; Marques-Sule, E. (2021). High-intensity
+interval and resistance training improve health outcomes in older adults
+with coronary disease. Journal of the American Medical Directors
+Association, <a href="https://doi.org/10.1016/j.jamda.2021.05.034"
+class="uri">https://doi.org/10.1016/j.jamda.2021.05.034</a> (Impact
+Factor: 7.7)</p></li>
+<li><p>Deka, P., Almenar, L., Pathak, D., Klompstra, L., Romero-Fuentes,
+M., Lopez-Vilella, R. &amp; Marques-Sule, E. (2021). The mediating
+effect of depression on psychological readiness, physical readiness and
+physical activity in patients with heart failure: a cross-sectional
+study. ESC Heart Failure. 8, 5259–5265, <a
+href="https://doi.org/10.1002/ehf2.13609"
+class="uri">https://doi.org/10.1002/ehf2.13609</a> (Impact Factor:
+4.4)</p></li>
+<li><p>Deka, P., Pozehl, B., Pathak, D., Williams, M., Norman, J.,
+Alonso, W. &amp; Jaarsma, T. (2021). Predicting maximal oxygen uptake
+from the 6 min walk test in patients with heart failure. ESC-Heart
+Failure, 8, 47-54, doi: 10.1002/ehf2.13167 (Impact Factor: 3.6)</p></li>
+<li><p>Iselar, J., Reidel, L., Zeman, J., Kumar, A.C., and Pathak, D.
+(2020). Intra-vascular targeted temperature management: One hospital’s
+experience. Accepted in the Therapeutic Hypothermia and Temperature
+Management. <a
+href="https://www.liebertpub.com/doi/abs/10.1089/ther.2020.0039"
+class="uri">https://www.liebertpub.com/doi/abs/10.1089/ther.2020.0039</a></p></li>
+<li><p>Deka, P., Pozehl, B., Williams, M. A., Norman, J., Khazanchi, K.
+&amp; Pathak, D. (2019). MOVE-HF: An Internet-Based Pilot Study to
+Improve Adherence to Exercise in Patients with Heart Failure. European
+Journal of Cardiovascular Nursing, 18 (2), 122-131, doi: <a
+href="https://doi.org/10.1177/1474515118796613"
+class="uri">https://doi.org/10.1177/1474515118796613</a> (Impact Factor:
+2.6) (article was featured in the Journal Club of the European Journal
+of Cardiovascular Nursing <a
+href="https://www.youtube.com/watch?v=-VCYPbmx2fI"
+class="uri">https://www.youtube.com/watch?v=-VCYPbmx2fI</a>; also
+awarded Best Manuscript Award for 2019 by the Journal)</p></li>
+</ol>
+</div>
+<div id="poster-presentation" class="section level5">
+<h5>Poster Presentation:</h5>
+<ol style="list-style-type: decimal">
+<li><p>Wu, H.S., Pathak, D., Given, C., iasecki, R., Preview of Post
+COVID-19 Era: Long-COVID Symptoms (2023). Presentation at the Midwest
+Nursing Research Society 48th Annual Conference (March 29-April 31,
+2023)</p></li>
+<li><p>Deka, P., Pathak, D., Miró-Palau, V., Karve, M., López-Vilella,
+R., Klompstra, L., Marques Sule, E. (2023). Lower Quality of Life
+Observed in Patients With Non-Cardiac Chest Pain. Presentation at the
+Midwest Nursing Research Society 48th Annual Conference (March 29-April
+31, 2023)</p></li>
+<li><p>Klompstra, L., Deka, P., Pathak, D., Marques-Sule, E. (2022).
+Changes in self-care maintenance during quarantine in patients with
+heart failure. Presentation at the European Society of Cardiology
+Congress, August 26-29, 2022 at Barcelona, Spain</p></li>
+<li><p>Muñoz-Gómez, E., Moreno-Segura, N., Sentandreu-Mañó, T., Deka,
+P., Klompstra, K., Pathak, D., Sempere-Rubio, N., Orihuela, L., Mont,
+J., Cruz, M., Westas, M., Marques-Sule, E. (2022). Physical activity and
+technology usage performed by patients with coronary artery disease: a
+gender approach. Presentation at Association of Cardiovascular Nursing
+and Allied Professions (ACNAP) EuroHeartCare Congress) in Madrid, Spain
+2022.</p></li>
+<li><p>Muñoz-Gómez, E., Orihuela, L., Deka, P., Klompstra, L., Pathak,
+D., Sempere-Rubio, N., Sentandreu-Mañó, T., Mont, J., Moreno-Segura, N.,
+Cruz, M., Westas, M., Marques-Sule, E. (2022). Interests and preferences
+towards technology-based cardiac rehabilitation in men and women with
+coronary artery disease. Presentation at the Association of
+Cardiovascular Nursing and Allied Professions (ACNAP) EuroHeartCare
+Congress) in Madrid, Spain 2022.</p></li>
+<li><p>Sempere-Rubio, N., Orihuela, L., Almenar, L., Sentandreu-Mañó,
+T., Deka, P., Klompstra, L., Pathak, D., Muñoz-Gómez, E., López-Vilella,
+R., Moreno-Segura, N., Mont, J., Westas, M., Marques-Sule, E. (2022).
+Presentation at Heart Failure Congress in Madrid, Spain 2022.</p></li>
+<li><p>Sempere-Rubio, N., Alguacil-Sancho, L., Almenar, L., Mont, J.,
+Sentandreu-Mañó, T., Klompstra, L., Deka, P., Pathak, D., Muñoz-Gómez,
+E., López-Vilella, R., Moreno-Segura, N., Orihuela, L., Westas, M.,
+Marques-Sule, E. (2022). Kinesiophobia, physical activity and quality of
+life in patients with heart failure: a cross-sectional study.
+Presentation at Heart Failure Congress in Madrid, Spain 2022</p></li>
+<li><p>Sempere-Rubio, N., Alguacil-Sancho, L., Almenar, L.,
+Moreno-Segura, N., Sentandreu-Mañó, T., Muñoz-Gómez, E., López-Vilella,
+R., Klompstra, L., Deka, P., Pathak, D., Orihuela, L., Mont, J., Westas,
+M., Marques-Sule, E. (2022). Comparison of musculoskeletal condition and
+quality of life by sex in patients with heart failure during COVID-19
+quarantine: an observational study. Presentation at Heart Failure
+Congress in Madrid, Spain 2022</p></li>
+<li><p>Sagheer, S. Annis, A., Pathak, D., Deka, P. Mannan, A.,
+Blankenship, J. (2021). Clinical outcomes and rate of readmission after
+acute myocardial infarction in patients with and without systemic lupus
+erythematous: A nationwide analysis. Submitted to the American College
+of Cardiology 22nd Annual Scientific Session held in Washington DC from
+April 2nd -4th, 2022</p></li>
+<li><p>Wu, H.S., Jean, D., &amp; Pathak, D. Post-Treatment Sleep
+Disturbance and Cognitive Dysfunction in Breast Cancer Survivors.
+American Psychosocial Oncology Society Annual Virtual Conference (March
+2021).</p></li>
+<li><p>Wu, Horng-Shiuann., Frain, J., &amp; Pathak, D. Sleep Disruption
+in Adults Living with Breast Cancer and Human Immunodeficiency Virus
+(HIV): A Comparative Study. ONS 46th Annual Congress (April
+2021).</p></li>
+<li><p>Marques-Sule, E., Almenar, L., Deka, P., Pathak, D.,
+López-Vilella, R., Klompstra, L. (2020). Readiness For Physical Activity
+In Patients With Heart Failure. Virtual presentation at American Heart
+Association Scientific Sessions, 2020 (November 13-17)</p></li>
+<li><p>Wu, Horng-Shiuann., Pathak, D., &amp; Given, C. W. (2020).
+Chronotypes and Symptoms in Women Newly Diagnosed with Breast Cancer.
+44th Annual Research Conference of the Midwest Nursing Research Society
+(MNRS 2020) Chicago, IL.</p></li>
+<li><p>Deka, P., Pozehl, B. &amp; Pathak, D. (2020). Predicting VO2 max
+from six min walk test scores in heart failure. Presentation at the
+Midwest Nursing Research Society 44th Annual Conference (April 1-4,
+2020), virtual conference. (Awarded the Distinguished Abstract
+Award)</p></li>
+<li><p>Keane, J., &amp; Pathak, D. (2019). Artificial intelligence in
+statistics education: potential benefits for instruction in significance
+testing. Panelist in the “Imagining the Utopian/Dystopian Future of
+Artificial Intelligence in Higher Education: Panel 1 - AI Higher Ed
+Tools” in the Society for Utopian Studies 44th Annual Meeting (October
+17th -19th, 2019)</p></li>
+<li><p>Brigge, A., Reisbig, A., Purdum, S., Pathak, D., &amp; Hanford,
+K. (2019). Heart-rate variability patterns as indicators of stress and
+welfare in female leghorn chickens: A comparative housing system study.
+53rd Congress of the International Society for Applied Ethology, Bergen,
+Norway</p></li>
+<li><p>Deka, P., Pozehl, B. &amp; Pathak, D. (2015). Six-min-walk test
+score can be a viable tool in predicting the VO2 max score in patients
+with heart failure. International Academy of Cardiovascular
+Sciences-Northern Section, Omaha, NE.</p></li>
+</ol>
+</div>
+<div id="book-chapters" class="section level5">
+<h5>Book Chapters</h5>
+<p>• Co-authored a Mathematical Statistics (with R) textbook for the
+Undergraduate students in Statistics and Data Science major.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
